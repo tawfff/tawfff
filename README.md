@@ -1,4 +1,4 @@
-<img src="assets/header.svg" alt="Mo Khalifa. I build anything. Here's the proof." width="100%">
+<img src="assets/header.svg" alt="Mo Tawfik Khalifa. I build anything. Here's the proof." width="100%">
 
 I take products from idea to shipped, on whatever they need to run on: AI agents and local models, identity and fintech apps, games and 3D web. I design them, build them, and lead the teams that scale them.
 

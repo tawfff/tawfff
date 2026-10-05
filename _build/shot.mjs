@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 
 const [url, out, wait = '30', w = '1280', h = '720'] = process.argv.slice(2);
-const CDP = 9334, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const CDP = 9400 + Math.floor(Math.random() * 500), sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const profile = await mkdtemp(path.join(tmpdir(), 'shot-'));
 const chrome = spawn('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', ['--headless=new', '--hide-scrollbars',
   '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist',
@@ -24,4 +24,4 @@ try {
   const { data } = await cdp('Page.captureScreenshot', { format: 'png' });
   await writeFile(out, Buffer.from(data, 'base64'));
   console.log('wrote', out);
-} finally { ws.close(); chrome.kill(); await sleep(500); await rm(profile, { recursive: true, force: true }); }
+} finally { ws.close(); chrome.kill('SIGKILL'); await sleep(700); await rm(profile, { recursive: true, force: true }); }

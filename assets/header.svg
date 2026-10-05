@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
-  <title id="t">Mo Khalifa. I build anything. Here's the proof.</title>
+  <title id="t">Mo Tawfik Khalifa. I build anything. Here's the proof.</title>
   <desc id="d">Animated header. Left: the headline and a line cycling through what Mo builds. Right: a build log listing mlx-agent, shellguard-lora, GVNR, Laqtaa and Proof of Player.</desc>
   <style>
     .mono { font-family: "Geist Mono", "SF Mono", ui-monospace, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
@@ -30,7 +30,7 @@
   </style>
   <rect width="1200" height="400" rx="18" fill="#1f2228"/>
   <rect x="0.5" y="0.5" width="1199" height="399" rx="17.5" fill="none" stroke="#2c3038"/>
-  <text class="mono lbl" x="64" y="78">MO KHALIFA</text>
+  <text class="mono lbl" x="64" y="78">MO TAWFIK KHALIFA</text>
   <text class="mono lbl" x="1136" y="78" text-anchor="end">GITHUB.COM/TAWFFF</text>
   <line class="rule" x1="64" y1="100" x2="1136" y2="100"/>
 
