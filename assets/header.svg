@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Mo Khalifa. I build anything. Here's the proof.</title>
+  <desc id="d">Animated header. Left: the headline and a line cycling through what Mo builds. Right: a build log listing mlx-agent, shellguard-lora, GVNR, Laqtaa and Proof of Player.</desc>
+  <style>
+    .mono { font-family: "Geist Mono", "SF Mono", ui-monospace, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .lbl { font-size: 15px; letter-spacing: 3.2px; fill: #8b8f97; }
+    .h1 { font-size: 60px; letter-spacing: -1.5px; fill: #ffffff; }
+    .h2 { font-size: 60px; letter-spacing: -1.5px; fill: #6b7079; }
+    .pr { font-size: 22px; fill: #8b8f97; }
+    .w { font-size: 22px; fill: #ffffff; opacity: 0; animation: cycle 12s infinite; }
+    .w:nth-of-type(2) { animation-delay: 2s; }
+    .w:nth-of-type(3) { animation-delay: 4s; }
+    .w:nth-of-type(4) { animation-delay: 6s; }
+    .w:nth-of-type(5) { animation-delay: 8s; }
+    .w:nth-of-type(6) { animation-delay: 10s; }
+    @keyframes cycle { 0% { opacity: 0; transform: translateY(6px); } 3%, 14% { opacity: 1; transform: none; } 17%, 100% { opacity: 0; transform: translateY(-6px); } }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .rule { stroke: #2c3038; stroke-width: 1; }
+    .log { font-size: 16px; fill: #c9ccd1; }
+    .dim { fill: #6b7079; }
+    .ok { fill: #ffffff; }
+    .row { opacity: 0; animation: in 12s infinite; }
+    .row:nth-of-type(2) { animation-delay: 0.5s; }
+    .row:nth-of-type(3) { animation-delay: 1s; }
+    .row:nth-of-type(4) { animation-delay: 1.5s; }
+    .row:nth-of-type(5) { animation-delay: 2s; }
+    @keyframes in { 0% { opacity: 0; } 4%, 92% { opacity: 1; } 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .w, .caret, .row { animation: none; } .w:first-of-type, .row { opacity: 1; } }
+  </style>
+  <rect width="1200" height="400" rx="18" fill="#1f2228"/>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="17.5" fill="none" stroke="#2c3038"/>
+  <text class="mono lbl" x="64" y="78">MO KHALIFA</text>
+  <text class="mono lbl" x="1136" y="78" text-anchor="end">GITHUB.COM/TAWFFF</text>
+  <line class="rule" x1="64" y1="100" x2="1136" y2="100"/>
+
+  <text class="mono h1" x="62" y="196">I build anything.</text>
+  <text class="mono h2" x="62" y="266">Here's the proof.</text>
+  <text class="mono pr" x="64" y="338">&gt; now building:</text>
+  <g>
+    <text class="mono w" x="286" y="338">AI agents<tspan class="caret">_</tspan></text>
+    <text class="mono w" x="286" y="338">fine-tuned models<tspan class="caret">_</tspan></text>
+    <text class="mono w" x="286" y="338">identity apps<tspan class="caret">_</tspan></text>
+    <text class="mono w" x="286" y="338">fintech<tspan class="caret">_</tspan></text>
+    <text class="mono w" x="286" y="338">games<tspan class="caret">_</tspan></text>
+    <text class="mono w" x="286" y="338">3D web<tspan class="caret">_</tspan></text>
+  </g>
+
+  <line class="rule" x1="742" y1="136" x2="742" y2="352"/>
+  <text class="mono lbl" x="776" y="152">BUILD LOG</text>
+  <g>
+    <text class="mono log row" x="776" y="196"><tspan class="ok">+</tspan> mlx-agent<tspan class="dim" x="958">swift, local llm</tspan></text>
+    <text class="mono log row" x="776" y="232"><tspan class="ok">~</tspan> shellguard-lora<tspan class="dim" x="958">27B LoRA, wip</tspan></text>
+    <text class="mono log row" x="776" y="268"><tspan class="ok">+</tspan> gvnr<tspan class="dim" x="958">agent guardrails</tspan></text>
+    <text class="mono log row" x="776" y="304"><tspan class="ok">+</tspan> laqtaa<tspan class="dim" x="958">live, EN / AR</tspan></text>
+    <text class="mono log row" x="776" y="340"><tspan class="ok">~</tspan> proof-of-player<tspan class="dim" x="958">concept</tspan></text>
+  </g>
+</svg>
