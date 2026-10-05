@@ -7,7 +7,7 @@ I take products from idea to shipped, on whatever they need to run on: AI agents
 <a href="https://github.com/instruxi-io/enforcer-governor"><img src="assets/card-gvnr.png" width="49%" alt="GVNR: a governor for AI agents"></a>
 <a href="https://laqtaa.app"><img src="assets/card-laqtaa.png" width="49%" alt="Laqtaa: one shared camera for your event"></a>
 <img src="assets/card-proof-of-player.png" width="49%" alt="Proof of Player: concept screens for passkey sign-in and verified-player passes">
-<img src="assets/card-receipts.png" width="49%" alt="Worked with Meta, PUBG, Binance, OKX, Coinbase and Expo 2020">
+<img src="assets/card-receipts.png" width="49%" alt="Worked with Formula 1, Sky, the 2018 Winter Olympics, Amazon, the FIFA World Cup Qatar 2022, Expo 2020 Dubai, PUBG and OKX">
 
 ### What's here
 

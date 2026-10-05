@@ -18,5 +18,5 @@ card shellguard shellguard.png "Fine-tune · work in progress" "shellguard-lora"
 card laqtaa laqtaa.png "Consumer app · live" "Laqtaa" "Guests scan one QR and every photo lands in one shared album. English and Arabic."
 card proof-of-player proof-of-player.png "Concept · identity for games" "Proof of Player" "Passkey sign-in and a verified-player pass, so a ban follows the person." contain "#0A0A0A"
 card gvnr gvnr.png "AI agents · Instruxi" "GVNR" "A governor for AI agents: every action is allowed, rewritten, asked or denied before it runs."
-names='[["Meta","XR production lead"],["PUBG","blockchain lead"],["Binance","head of devrel"],["OKX","head of growth"],["Coinbase","CRM engineer"],["Expo 2020","3D digital twin"]]'
+names='[["Formula 1","technical producer"],["Sky","technical manager"],["Winter Olympics","transmission, 2018"],["Amazon","streaming manager"],["FIFA World Cup","Qatar 2022 digital twins"],["Expo 2020 Dubai","VP production"],["PUBG","blockchain lead"],["OKX","head of growth"]]'
 clear _build/card.html assets/card-receipts.png 800 640 "?kind=receipts&names=$(enc "$names")"
