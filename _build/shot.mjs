@@ -10,6 +10,9 @@ const profile = await mkdtemp(path.join(tmpdir(), 'shot-'));
 const chrome = spawn('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', ['--headless=new', '--hide-scrollbars',
   '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist',
   `--remote-debugging-port=${CDP}`, `--user-data-dir=${profile}`, `--window-size=${w},${h}`, 'about:blank'], { stdio: 'ignore' });
+// Always stop this Chrome, even if the run fails before the screenshot (a stray one burned 6 cores for hours).
+process.on('exit', () => { try { chrome.kill('SIGKILL'); } catch {} });
+process.on('uncaughtException', (e) => { console.error(e.message); process.exit(1); });
 let target;
 for (let i = 0; i < 40 && !target; i++) { await sleep(250); try { target = (await (await fetch(`http://127.0.0.1:${CDP}/json`)).json()).find((t) => t.type === 'page'); } catch {} }
 const ws = new WebSocket(target.webSocketDebuggerUrl);

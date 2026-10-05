@@ -19,4 +19,4 @@ I take products from idea to shipped, on whatever they need to run on: AI agents
 
 ### Get in touch
 
-[LinkedIn](https://www.linkedin.com/in/tawfiktv) · [X](https://x.com/tawffff)
+[tawfik.tv](https://tawfik.tv) · m@tawfik.tv · [LinkedIn](https://www.linkedin.com/in/tawfiktv) · [X](https://x.com/tawffff)
