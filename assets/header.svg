@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
   <title id="t">Mo Tawfik Khalifa. I build anything. Here's the proof.</title>
-  <desc id="d">Animated header. Left: the headline and a line cycling through what Mo builds. Right: a build log listing mlx-agent, shellguard-lora, GVNR, Laqtaa and Proof of Player.</desc>
+  <desc id="d">Animated header. Left: the headline and a line cycling through what Mo builds. Right: a build log listing mlx-agent, GVNR, Laqtaa and Proof of Player.</desc>
   <style>
     .mono { font-family: "Geist Mono", "SF Mono", ui-monospace, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
     .lbl { font-size: 15px; letter-spacing: 3.2px; fill: #8b8f97; }
@@ -50,9 +50,8 @@
   <text class="mono lbl" x="776" y="152">BUILD LOG</text>
   <g>
     <text class="mono log row" x="776" y="196"><tspan class="ok">+</tspan> mlx-agent<tspan class="dim" x="958">swift, local llm</tspan></text>
-    <text class="mono log row" x="776" y="232"><tspan class="ok">~</tspan> shellguard-lora<tspan class="dim" x="958">27B LoRA, wip</tspan></text>
-    <text class="mono log row" x="776" y="268"><tspan class="ok">+</tspan> gvnr<tspan class="dim" x="958">agent guardrails</tspan></text>
-    <text class="mono log row" x="776" y="304"><tspan class="ok">+</tspan> laqtaa<tspan class="dim" x="958">live, EN / AR</tspan></text>
+    <text class="mono log row" x="776" y="244"><tspan class="ok">+</tspan> gvnr<tspan class="dim" x="958">agent guardrails</tspan></text>
+    <text class="mono log row" x="776" y="292"><tspan class="ok">+</tspan> laqtaa<tspan class="dim" x="958">live, EN / AR</tspan></text>
     <text class="mono log row" x="776" y="340"><tspan class="ok">~</tspan> proof-of-player<tspan class="dim" x="958">concept</tspan></text>
   </g>
 </svg>
