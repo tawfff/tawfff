@@ -17,6 +17,7 @@ card mlx-agent mlx-agent-empty.png "AI agent · Swift · local models" "mlx-agen
 card shellguard shellguard.png "Fine-tune · work in progress" "shellguard-lora" "Teaching Qwen3.8 27B a team command policy, without putting the policy in the prompt."
 card laqtaa laqtaa.png "Consumer app · live" "Laqtaa" "Guests scan one QR and every photo lands in one shared album. English and Arabic."
 card proof-of-player proof-of-player.png "Concept · identity for games" "Proof of Player" "Passkey sign-in and a verified-player pass, so a ban follows the person." contain "#0A0A0A"
+card seven seven.jpg "Real-time 3D · built by hand" "SEVEN Al Hamra" "A walkable replica of a Riyadh destination, built in Unity from the construction models."
 card gvnr gvnr.png "AI agents · Instruxi" "GVNR" "A governor for AI agents: every action is allowed, rewritten, asked or denied before it runs."
 names='[["Formula 1","technical producer"],["Sky","technical manager"],["Winter Olympics","transmission, 2018"],["Amazon","streaming manager"],["FIFA World Cup","Qatar 2022 digital twins"],["Expo 2020 Dubai","VP production"],["PUBG","blockchain lead"],["OKX","head of growth"]]'
 clear _build/card.html assets/card-receipts.png 800 640 "?kind=receipts&names=$(enc "$names")"
